@@ -1,0 +1,75 @@
+.adminLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(12, 43, 73);
+}
+.form_container_card1{
+    background-image: url("../../public/images/userbg.jpg");
+    height: 550px;
+    width: 400px;
+    display: grid;
+    justify-content: center;
+    border-radius: 20px;
+}
+.form_container_card1 h1{
+    color: rgb(48, 255, 48);
+    margin: 40px 40px 20px 40px;
+    padding-left: 20px;
+    height: fit-content;
+    width: fit-content;
+}
+.form_input1{
+    padding: 25px;
+}
+.form_input1 form{
+    display: grid;
+    align-items: center;
+}
+.form_input1 img{
+    margin-left: 105px;
+    border-radius: 50%;
+}
+.form_input1 button{
+    width: fit-content;
+    height: 40px;
+    width: 125px;
+    margin: 20px 0px 0px 90px;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    background-color:rgb(102, 247, 102);
+    font-size: 15px;
+}
+.form_input1 button:hover{
+    color: blue;
+}
+.email1{
+    display: grid;
+    margin: 20px 0px;
+}
+.email1 label{
+    margin:5px 5px;
+    color: cornsilk;
+}
+.email1 input{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+}
+.password1{
+    display: grid;
+    margin: 20px 0px;
+}
+.password1 label{
+    margin:5px 5px;
+    color: cornsilk;
+}
+.password1 input{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+}

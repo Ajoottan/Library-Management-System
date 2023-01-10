@@ -1,0 +1,56 @@
+.booklist{
+    /* background-color: rgb(186, 186, 235); */
+    display: grid;
+    justify-content: center;
+    background-color: rgb(12, 43, 73);
+    border-top: 1px solid rgba(11, 220, 11, 0.701);
+}
+.booklist h1{
+    color: white;
+}
+.books_section{
+    display: grid;
+    padding: 10px;
+    /* flex-direction: column; */
+}
+.book_card{
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.944);
+    padding: 5px 10px;
+    margin: 0.5px 0px;
+    border-radius: 5px;
+    width: 800px;
+    /* border: 10px solid blue; */
+} 
+.thumbnail{
+    background-color: rgba(120, 125, 123, 0.3);
+    padding: 10px;
+
+}
+.desc{
+    padding-left: 20px;
+    color: white;
+    display: block;
+    
+}
+.desc button{
+    border: none;
+    height: 25px;
+    width: 100px;
+    margin: 0px 5px ;
+    background-color: rgba(12, 42, 73, 0.867);
+    color: white;
+    border-radius: 5px;
+}
+.desc button:hover{
+    background-color: red;
+    color: black;
+}
+.desc h3{
+    color: black;
+
+}
+.desc h5{
+    color: black;
+
+}

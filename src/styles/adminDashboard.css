@@ -1,0 +1,10 @@
+.adminDashboard{
+    background-color: rgb(12, 43, 73);
+    height: 100vh;
+    margin: 0px;
+    text-align: center;
+}
+.adminDashboard h1,h3{
+    margin-top: 0px;
+    color: rgba(255, 255, 255, 0.944);
+}
