@@ -1,9 +1,10 @@
 import { useState , useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate , useLocation } from "react-router-dom";
 import "../styles/bookList.css"
 import ReadBook from "./raedBook";
 
 const BookList = () => {
+    let location = useLocation() //to fetch the route value
     let navigate = useNavigate()
     let [books,setBooks] = useState([])
     useEffect(()=>{
@@ -21,8 +22,12 @@ const BookList = () => {
         alert(`${title} will be deleted permenently`)
     }
     let read = (id) =>{
-        navigate(`/admin/book-list/${id}`)
-        console.log(`${id}`);
+        if(location.pathname == '/admin/book-list'){
+            navigate(`/admin/book-list/${id}`)
+        }else{
+            navigate(`/user/book-list/${id}`)
+        }
+        
     } 
     return ( 
         <div className="booklist">
@@ -40,7 +45,7 @@ const BookList = () => {
                             <h5>Categories : {data.categories}</h5>
                             <h5>PageCount : {data.pageCount}</h5>
                             <button onClick={()=>read(data.id)}>Read more</button>
-                            <button onClick={()=>handleDelete(data.id,data.title)}>Delete</button>
+                            {location.pathname == "/admin/book-list" && <button onClick={()=>handleDelete(data.id,data.title)}>Delete</button>}
                             </div>
                         <ReadBook fn={read}/>
                     </div>

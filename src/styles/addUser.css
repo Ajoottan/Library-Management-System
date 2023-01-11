@@ -1,32 +1,31 @@
-.addBook{
-    display: grid;
+.addUser{
+    color: white;
     justify-content: center;
     text-align: center;
-    color: white;
+    display: grid;
     border-top: 1px solid rgba(11, 220, 11, 0.701);
+
     
 }
-.ab_body{
-    height: 100vh;
+.au_body{
     background-color: rgb(12, 43, 73);
-
+    height: 100vh;
 }
-.bookheading{
+.userheading{
     height: 100px;
 }
-.bookheading h1{
+.userheading h1{
     margin-top: 0px;
     padding-top: 10px;
 }
-.ab_content{
+.au_content{
     display: flex;
     align-items: center;
-
 }
-.ab_img{
-    margin-right: 30px;
+.au_img{
+    margin-right: 10px;
 }
-.formBook button{
+.formUser button{
     width: 100px;
     height: 25px;
     color: white;
@@ -36,13 +35,11 @@
     margin: 10px 0px;
 
 }
-.formBook button:hover{
+.formUser button:hover{
     color: rgb(20, 250, 20);
     border: 2px solid white;
-    
-    
 }
-.formBook input{
+.formUser input{
     width: 240px;
     height: 25px;
     margin: 10px 0px;
@@ -51,9 +48,8 @@
     border-radius: 5px;
     border-bottom: 3px solid rgba(20, 250, 20, 0.734);
     background-color: rgb(12, 43, 73);
-    
 }
-.formBook textarea{
+.formUser textarea{
     width: 240px;
     margin: 5px 0px;
     height: 40px;
@@ -63,52 +59,27 @@
     background-color: rgb(12, 43, 73);
     margin-left: 10px;
     color: white;
-
-
-
 }
-.title{
+.userName{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.categories{
+.userAge{
     display: flex;
     align-items: center;
     justify-content: space-between;
 
 }
-.authors{
+.userEmail{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
+    justify-content: space-between;
 
 }
-.shortDescription{
+.userPhno{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
-
-}
-.longDescription{
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-
-
-
-}
-.thumbnailUrl{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.pageCount{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
 }

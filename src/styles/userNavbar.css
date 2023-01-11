@@ -1,0 +1,19 @@
+.userNavbar{
+    background-color: rgb(12, 43, 73);
+    border-bottom: 1px solid rgb(247, 174, 38);
+
+}
+.navbar1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links1 a{
+    text-decoration: none;
+    margin: 0px 15px;
+    color: rgb(247, 174, 38);
+}
+.heading1 h1{
+    color: rgb(247, 174, 38);
+
+}
